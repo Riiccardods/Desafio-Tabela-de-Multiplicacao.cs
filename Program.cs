@@ -9,7 +9,7 @@ namespace TabelaMultiplicacao
             Console.Write("Digite um número inteiro positivo para ver sua tabela de multiplicação: ");
             int n = int.Parse(Console.ReadLine());
 
-
+             
             Console.WriteLine();
 
             for (int i = 1; i <= 10; i++)
