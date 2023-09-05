@@ -6,7 +6,7 @@ namespace TabelaMultiplicacao
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite um número inteiro positivo para ver sua tabela de multiplicação: ");
+            Console.Write("Digite um número inteiro para ver sua tabela de multiplicação: ");
             int n = int.Parse(Console.ReadLine());
 
              
