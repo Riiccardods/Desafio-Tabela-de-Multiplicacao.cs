@@ -7,15 +7,21 @@ namespace TabelaMultiplicacao
         static void Main(string[] args)
         {
             Console.Write("Digite um número para ver sua tabela de multiplicação: ");
-            int n = int.Parse(Console.ReadLine());
+            if(int.TryParse(Console.ReadLine(), out int n))
+            {
+                for (int i = 1; i <= 10; i++)
+                {
+                    Console.WriteLine($" {n} x {i} = {n * i}");
+                } 
+            }
+
+            else
+            {
+                Console.WriteLine("error");
+            }
 
              
-            Console.WriteLine();
-
-            for (int i = 1; i <= 10; i++)
-            {
-                Console.WriteLine($" {n} x {i} = {n * i}");
-            }
+            
 
             Console.ReadLine();
         }
