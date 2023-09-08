@@ -9,7 +9,6 @@ namespace TabelaMultiplicacao
             Console.Write("Digite um número para ver sua tabela de multiplicação: ");
             int n = int.Parse(Console.ReadLine());
 
-
              
             Console.WriteLine();
 
