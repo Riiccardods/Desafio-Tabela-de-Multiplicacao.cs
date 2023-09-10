@@ -21,7 +21,6 @@ namespace TabelaMultiplicacao
                 Console.WriteLine("error");
             }
 
-
             Console.ReadLine();
         }
     }
