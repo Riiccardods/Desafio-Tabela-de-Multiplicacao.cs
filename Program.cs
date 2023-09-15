@@ -23,6 +23,8 @@ namespace TabelaMultiplicacao
             }
 
             Console.ReadLine();
+
+            Console.WriteLine($"Ola {n}");
         }
     }
 }
