@@ -8,7 +8,7 @@ namespace TabelaMultiplicacao
         {
 
 
-            Console.Write("Digite um número para ver sua tabela de multiplicação: ");
+            Console.Write("Digite um número: ");
             if(int.TryParse(Console.ReadLine(), out int n))
             {
                 for (int i = 1; i <= 10; i++)
