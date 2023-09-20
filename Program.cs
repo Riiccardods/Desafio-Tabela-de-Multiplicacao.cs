@@ -17,7 +17,6 @@ namespace TabelaMultiplicacao
                 } 
             }
 
-
             else
             {
                 Console.WriteLine("error");
