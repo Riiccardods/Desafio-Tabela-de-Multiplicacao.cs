@@ -3,6 +3,7 @@
 namespace TabelaMultiplicacao
 {
 
+
     class Program
     {
         static void Main(string[] args)
@@ -17,9 +18,6 @@ namespace TabelaMultiplicacao
                     Console.WriteLine($" {n} x {i} = {n * i}");
                 } 
             }
-
-
-
 
 
 
