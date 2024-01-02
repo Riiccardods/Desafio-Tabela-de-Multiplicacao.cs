@@ -8,9 +8,8 @@ namespace TabelaMultiplicacao
         static void Main(string[] args)
         {
 
-
-            Console.Write("Digite um número: ");
-            if(int.TryParse(Console.ReadLine(), out int n))
+            #region Console.Write("Digite um número: ");
+            if (int.TryParse(Console.ReadLine(), out int n))
             {
                 for (int i = 1; i <= 5; i++)
                 {
@@ -18,11 +17,11 @@ namespace TabelaMultiplicacao
                 } 
             }
 
-
             else
             {
                 Console.WriteLine("error");
             }
+            #endregion
 
             Console.ReadLine();
 
