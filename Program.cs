@@ -25,7 +25,7 @@ namespace TabelaMultiplicacao
 
             Console.ReadLine();
 
-            Console.WriteLine($"Ola {n}");
+            Console.WriteLine($"Ola {n}"); 
         }
     }
 }
